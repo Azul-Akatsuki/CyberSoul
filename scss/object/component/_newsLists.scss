@@ -1,0 +1,23 @@
+.c-newsLists {
+    li {
+        border-top: 1px solid #fff;
+        padding: 24px 0;
+        
+        &:last-of-type{
+            border-bottom: 1px solid #fff;
+        }
+
+        a {
+            opacity: 1;
+
+            &:hover {
+                opacity: .7;
+            }
+
+            span {
+                font-family: 'DS-Digital';
+                font-size: 20px;
+            }
+        }
+    }
+}

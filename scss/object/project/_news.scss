@@ -1,0 +1,35 @@
+.p-newsDetails {
+    &Box{
+        h3 {
+            font-size: 20px;
+            border-bottom: 1px solid #fff;
+            span {
+                display: block;
+                font-family: "DS-Digital";
+                font-size: 20px;
+            }
+        }
+        .nav-links {
+            // display: flex;
+            // justify-content: space-between;
+            margin-top: 32px;
+            .page-numbers {
+                display: none;
+            }
+            span {
+                display: none;
+            }
+            .prev{
+                display: inline-block;
+                font-family: 'DS-Digital';
+                font-size: 24px;
+            }
+            .next{
+                display: inline-block;
+                float: right;
+                font-family: 'DS-Digital';
+                font-size: 24px;
+            }
+        }
+    }
+}

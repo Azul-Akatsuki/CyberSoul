@@ -1,0 +1,11 @@
+.u-block-c {
+    margin: 0 auto;
+}
+
+.u-pcOnly {
+    display: block;
+
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+}

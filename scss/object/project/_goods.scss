@@ -1,0 +1,34 @@
+.p-goods {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  &Box {
+    width: 40%;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    a {
+      display: block;
+      position: relative;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &__img {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.p-singleGoods {
+  &__title {
+    font-size: 20px;
+  }
+}

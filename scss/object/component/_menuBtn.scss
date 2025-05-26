@@ -1,0 +1,12 @@
+.c-menuBtn {
+    position: fixed;
+    z-index: 999;
+    top: -105px;
+    right: -105px;
+    background-color: rgba(217,217,217,0.2);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}

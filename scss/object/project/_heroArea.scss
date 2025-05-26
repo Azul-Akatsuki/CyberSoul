@@ -1,0 +1,55 @@
+.p-heroArea {
+    &__catch {
+        opacity: 0;
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+
+    @media screen and (max-width:767px){
+        top: 3%;
+        left: 7%;
+    }
+
+        img {
+            width: 120px;
+
+            @media screen and (max-width:767px) {
+                width: 60%;
+            }
+        }
+    }
+
+    &__title{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        top: 75%;
+        right: 3%;
+        align-items: flex-end;
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            top: 80%;
+        }
+
+
+        @media screen and (max-width:767px) {
+            position: relative;
+            top: 85%;
+            left: 1%;
+            width: 85%;
+            padding: 0;
+        }
+
+        img{
+            width: 45%;
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+                width: 60%;
+            }
+            @media screen and (max-width:767px) {
+                width: 85%;
+            }
+        }
+    }
+}

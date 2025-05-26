@@ -1,0 +1,33 @@
+.c-heading2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--EN {
+        font-family: 'DS-Digital';
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    &--JP {
+        font-weight: medium;
+    }
+
+    &Pages{
+        position: absolute;
+        top: 6%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        @media screen and (max-width:767px) {
+            top: 10%;
+        }
+    }
+
+    &--PagesBk{
+        position: relative;
+        background-image: url("https://cybersoul.azulfolio.com/wp-content/uploads/2025/05/heroArea_bkImg.png");
+        height: 200px;
+        justify-content: center;
+    }
+}

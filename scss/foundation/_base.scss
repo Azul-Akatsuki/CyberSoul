@@ -1,0 +1,37 @@
+//全体設定
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('https://cybersoul.azulfolio.com/wp-content/uploads/fonts/DS-Digital.woff2') format('woff2'),
+    url('https://cybersoul.azulfolio.com/wp-content/uploads/fonts/DS-Digital.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+   }
+   
+   @font-face {
+    font-family: 'DS-Digital';
+    src: url('https://cybersoul.azulfolio.com/wp-content/uploads/fonts/DS-Digital-Bold.woff2') format('woff2'),
+    url('https://cybersoul.azulfolio.com/wp-content/uploads/fonts/DS-Digital-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+   }
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP, Arial';
+}
+
+img {
+    max-width: 100%;
+}

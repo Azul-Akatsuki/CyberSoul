@@ -1,0 +1,87 @@
+.p-characterBox {
+    &__tab{
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                border-radius: 10px;
+                border: 1px solid #00FFFF;
+                width: 100px;
+                height: 100px;
+                overflow: hidden;
+                background-color: #eee;
+
+                @media screen and (max-width:767px) {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                &.is-active{
+                    background-color: #00ffff;
+                }
+
+                img {
+                    max-width: none;
+                    width: 280%;
+                    transform: translateX(-88px);
+
+                    @media screen and (max-width:767px) {
+                        transform: translateX(-40px);
+                    }
+                }
+            }
+        }
+    }
+    &__contents {
+        img {
+            width: 40%;
+            @media screen and (max-width:767px) {
+                width: 100%;
+            }
+        }
+        &__txtArea {
+            width: 40%;
+            @media screen and (max-width:767px) {
+                width: 100%;
+            }
+            p {
+                &:nth-of-type(1) {
+                    font-size: 32px;
+                    font-weight: 700;
+                    span {
+                        margin-left: 8px;
+                        font-size: 16px;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    font-size: 20px;
+                    a {
+                        margin-left: 8px;
+                        i {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    b {
+                        display: block;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .p-characterBox__contents__box{
+            display: none;
+        }
+        .p-characterBox__contents__box.is-show{
+            display: flex;
+            justify-content: center;
+            @media screen and (max-width:767px) {
+                display: block;
+            }
+        }
+    }
+}
+

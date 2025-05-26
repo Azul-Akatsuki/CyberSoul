@@ -1,0 +1,32 @@
+.p-keyword{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1060px;
+
+    @media screen and (max-width:767px) {
+        height: 100%;
+    }
+}
+
+.p-keywordBox{
+    width: 45%;
+    @media screen and (max-width:767px) {
+        width: 100%;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        @media screen and (max-width:767px) {
+            font-size: 14px;
+        }
+    }
+
+    &:nth-of-type(n+2){
+        @media screen and (max-width:767px) {
+            margin-top: 40px;
+        }
+    }
+}
